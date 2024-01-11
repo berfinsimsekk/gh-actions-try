@@ -6,8 +6,8 @@
      steps:
        - name: Print greeting
          run: echo "hello"
-       - name: Print bye
-         run: echo "BYEEE"
+       - name: Print secret
+         run: echo "${{ secrets.secret1 }}"
        - name: Checkout repository
          uses: actions/checkout@v2
        - name: Set up Python
@@ -16,4 +16,5 @@
           python-version: '3.9'
        - name: Run script
          run: python folder/main.py
+         
 
