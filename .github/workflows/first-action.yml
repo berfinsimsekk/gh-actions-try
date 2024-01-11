@@ -16,7 +16,7 @@
           python-version: '3.9'
        - name: Run script
          env:
-          USERNAME: "berfin123"
+          USER_NAME: "berfin123"
          run: python main.py
          
 
