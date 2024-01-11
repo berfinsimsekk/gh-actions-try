@@ -16,7 +16,7 @@
           python-version: '3.9'
        - name: Run script
          env:
-          USER_NAME: "berfin123"
+          USER_NAME: ${{ secrets.SECRET1 }}
          run: python main.py
          
 
