@@ -10,8 +10,6 @@
          run: echo "BYEEE"
        - name: Checkout repository
          uses: actions/checkout@v2
-         with:
-          path:'folder/'
        - name: Set up Python
          uses: actions/setup-python@v2
          with:
