@@ -7,7 +7,7 @@
        - name: Print greeting
          run: echo "hello"
        - name: Print secret
-         run: echo "${{ secrets.secret1 }}"
+         run: echo ${{ secrets.secret1 }}
        - name: Checkout repository
          uses: actions/checkout@v2
        - name: Set up Python
