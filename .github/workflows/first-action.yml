@@ -17,6 +17,6 @@
        - name: Run script
          env:
           USERNAME: "berfin123"
-         run: python folder/main.py
+         run: python main.py
          
 
