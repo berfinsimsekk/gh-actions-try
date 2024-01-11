@@ -15,5 +15,5 @@
          with:
           python-version: '3.9'
        - name: Run script
-         run: python main.py
+         run: python folder/main.py
 
