@@ -8,3 +8,12 @@
          run: echo "hello"
        - name: Print bye
          run: echo "BYEEE"
+       - name: Checkout repository
+         uses: actions/checkout@v2
+       - name: Set up Python
+         uses: actions/setup-python@v2
+         with:
+          python-version: '3.9'
+       - name: Run script
+          run: python main.py
+
