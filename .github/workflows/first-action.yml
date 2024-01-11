@@ -11,7 +11,7 @@
        - name: Checkout repository
          uses: actions/checkout@v2
          with:
-          path:'/folder'
+          path:'folder'
        - name: Set up Python
          uses: actions/setup-python@v2
          with:
